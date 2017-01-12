@@ -10,6 +10,7 @@ import org.apache.shiro.authc.UsernamePasswordToken;
 import org.apache.shiro.realm.Realm;
 
 public class MyRealm1 implements Realm {
+	
 	@Override
 	public String getName() {
 		return "myrealm1";
